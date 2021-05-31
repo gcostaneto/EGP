@@ -1,4 +1,4 @@
-#**Enviromic Assembly for purposes of Genomic Prediction (E-GP)**
+# **Enviromic Assembly for purposes of Genomic Prediction (E-GP)**
 
 Author: Germano Costa Neto <germano.cneto@gmail.com> 
 
