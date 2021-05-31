@@ -1,7 +1,9 @@
 
 # **E-GP: Enviromic Assembly**
-author: "Germano Costa-Neto"
-date: "May 2021"
+
+author: Germano Costa-Neto
+
+date: May 2021
 
 
 > As a toy-example, we made available a set of 100 genotypes over 4 environments.
