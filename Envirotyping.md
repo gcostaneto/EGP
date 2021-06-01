@@ -13,7 +13,7 @@ ______________________________________________________________________________
 
 #### **Functions and data**
 
-> Functions for Enviromic Assembly came from the [EnvRtype-package](https://github.com/allogamous/EnvRtype). The Supplementary data can be download [here](https://github.com/gcostaneto/EGP/blob/main/Enviromic%20Assembly_Example%201.rar)
+> Functions for Enviromic Assembly came from the [EnvRtype-package](https://github.com/allogamous/EnvRtype). The Supplementary data can be downloaded [here](https://github.com/gcostaneto/EGP/blob/main/Enviromic%20Assembly_Example%201.rar)
 
 
 ```{r, eval=FALSE}
