@@ -44,7 +44,7 @@ Then, to import and read the file in R you must to use the readRDS() function (m
 
 # Pipelines
 
-> **[Envirotyping: data collection, processsing and essembly](https://github.com/gcostaneto/EGP/blob/main/Envirotyping.md)**
+> **[Envirotyping: data collection, processsing and essembly in Genomic Prediction](https://github.com/gcostaneto/EGP/blob/main/Envirotyping.md)**
 
 > **[Genetic algorithm for selective phenotyping combining enviromics with genomics](https://github.com/gcostaneto/EGP/blob/main/Selective%20Phenotyping.md)**
 
