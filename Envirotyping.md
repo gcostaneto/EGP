@@ -13,26 +13,26 @@ ______________________________________________________________________________
 
 #### **Functions and data**
 
-> Functions for Enviromic Assembly came from the [EnvRtype-package](https://github.com/allogamous/EnvRtype)
+> Functions for Enviromic Assembly came from the [EnvRtype-package](https://github.com/allogamous/EnvRtype). The Supplementary data can be download (here)[https://github.com/gcostaneto/EGP/blob/main/Enviromic%20Assembly_Example%201.rar]
 
 
 ```{r, eval=FALSE}
-
-library(devtools)
-install_github('allogamous/EnvRtype')
-require(EnvRtype)
-
-# and other functions
+# packages
 require(EnvRtype)
 require(reshape2)
 require(plyr)
 require(superheat)
 
-# source data
+# source codes
+source('https://raw.githubusercontent.com/gcostaneto/EGP/main/supplementary_codes_1.R')
+
+# supplementary data
+load('G_matrix.RData')  # genomic relatedness for A effects (100 x 100)
+load('phenoMET.RData')  # multi-environment phenotypic data (100 genotypes at 4 environments)
+load('SoilClass.RData') # raster file containing some soil type information we need
+
 
 ```
-
-
 
 
 #### **Remote data collection of daily weather**
