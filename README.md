@@ -47,7 +47,7 @@ Then, to import and read the file in R you must to use the readRDS() function (m
 
 > **[Genetic algorithm for selective phenotyping combining enviromics with genomics](https://github.com/gcostaneto/EGP/blob/main/Selective%20Phenotyping.md)**
 
-> **MCMC chain analysis and convergence using Gelman-Rubin diagnostic** (in prep)
+> **MCMC chain analysis and convergence diagnosis using Gelman-Rubin diagnostic** (in prep)
 
 > **Creating different GxE scenarios for cross-validation** (in prep)
 
