@@ -1,7 +1,7 @@
 N_GE <- function(Kernel,         # some genomic, enviromic or enviromic x genomic kernel
                  fraction =.98,  # expected fraction explained (Misztal, 2016)
                  plot=TRUE,      # plot  svd?
-                 svd.print=FALSE # save svd?
+                 svd.print=FALSE, # save svd?
                  title = 'Effective N size',
                  ylab = 'Fraction of Kernel Variance',
                  xlab= 'Individuals'
