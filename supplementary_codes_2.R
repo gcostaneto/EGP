@@ -2,13 +2,16 @@ N_GE <- function(Kernel,         # some genomic, enviromic or enviromic x genomi
                  fraction =.98,  # expected fraction explained (Misztal, 2016)
                  plot=TRUE,      # plot  svd?
                  svd.print=FALSE # save svd?
+                 title = 'Effective N size',
+                 ylab = 'Fraction of Kernel Variance',
+                 xlab= 'Individuals'
                  ){
   svd.KERNEL <- svd(Kernel, nu = nrow(Kernel), nv = ncol(Kernel))
   SVdD<-cumsum((svd.KERNEL$d[1:ncol(Kernel)])^2/sum(svd.KERNEL$d^2))
   N <- length(SVdD[which(SVdD < fraction)])
   if(isTRUE(plot)){
-    plot(SVdD,lwd=2,pch=15,xlab='Individuals',bty='l', cex.lab=1.5, cex.axis=1.5, cex.main=2.2,
-         main='Effective N size',ylab='Fraction of Kernel Variance')
+    plot(SVdD,lwd=2,pch=15,xlab=xlab,bty='l', cex.lab=1.5, cex.axis=1.5, cex.main=2.2,
+         main=title,ylab=ylab)
     lines(SVdD,lwd=2)
     abline(v = N,lwd=3,col='red')
   }
