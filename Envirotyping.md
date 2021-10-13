@@ -1,9 +1,11 @@
 
 # **E-GP: Enviromic Assembly**
 
-author: Germano Costa-Neto
+author      : Germano Costa-Neto
 
-date: May 2021
+Last update : May 2021
+
+EnvRtype version 0.0.9 (december 2020)
 
 ______________________________________________________________________________
 
