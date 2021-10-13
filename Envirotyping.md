@@ -5,7 +5,7 @@ author      : Germano Costa-Neto
 
 Last update : May 2021
 
-EnvRtype version 0.0.9 (december 2020)
+EnvRtype beta version 0.0.9 (december 2020)
 
 ______________________________________________________________________________
 
